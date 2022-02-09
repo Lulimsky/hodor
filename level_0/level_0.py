@@ -2,6 +2,7 @@
 
 import requests
 import sys
+# import from bs4 import BeautifulSoup
 
 # Get ID from command line
 if len(sys.argv) != 2:
