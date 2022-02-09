@@ -12,7 +12,7 @@ if len(sys.argv) != 2:
 input = sys.argv[1]
 
 try:
-    id = int(input)
+    id = 3337
 except ValueError:
     print("Error: id must be a number")
     quit()
