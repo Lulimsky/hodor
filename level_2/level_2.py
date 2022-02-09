@@ -3,19 +3,8 @@
 import requests
 import sys
 
-# Get ID from command line
-if len(sys.argv) != 2:
-    print("Usage python " + sys.argv[0] + " id")
-    quit()
-
-# Check if id is numerical
-input = sys.argv[1]
-
-try:
-    id = int(input)
-except ValueError:
-    print("Error: id must be a number")
-    quit()
+# The id is hardcoded
+id = 3337
 
 # Set the endpoint
 URI = "http://158.69.76.135/level2.php"
