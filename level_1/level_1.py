@@ -26,7 +26,7 @@ key = response.cookies["HoldTheDoor"]
 
 # Set the form data
 data = {
-    'id': id,
+    'id': 3337,
     'holdthedoor': 'submit',
     "key": key
 }
